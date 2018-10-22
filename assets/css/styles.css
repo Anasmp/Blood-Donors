@@ -1,0 +1,61 @@
+@media screen and (min-width: 480px) {
+    .mainHead{
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+}
+
+
+
+.mainHead{
+    padding-left: 10%;
+    padding-top: 35px;
+}
+.mainHeadl-left{
+    padding-right: 10%;
+    padding-top: 35px;
+}
+.button {
+    background-color: #005ccd;
+    border: none;
+    height:45px;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button:not(:last-child) {
+    border-right: none; 
+}
+.button:hover {
+    background-color: #0872f3;
+}
+.button1 {border-radius: 5px;}
+
+.search-container {
+    margin-top: 40px;
+    padding-right: 10%;
+    padding-left:10%
+}
+.circle {
+    height: 55px;
+    width: 55px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .sectionContainer {
+    position: relative;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
